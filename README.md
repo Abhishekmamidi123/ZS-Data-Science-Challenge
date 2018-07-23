@@ -1,5 +1,5 @@
 # ZS_Data_Science_Challenge
-This is the challenge organized by Hacker earth.
+This is the challenge organised by Hacker earth.
 
 ## This problem involves:
 - Handle data to pre-process and generate relevant features and insights for modeling.
