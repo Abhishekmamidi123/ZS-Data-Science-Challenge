@@ -1,0 +1,170 @@
+## Categorical values - Countries
+
+1. Support Vector Regression - linear
+
+svr = SVR(kernel='linear', C=1e3)
+
+Correlation between y_train and y_train_pred = 97.646
+
+SMAPE = 14.6211829
+
+================================
+
+2. Linear Regression
+
+lreg = LinearRegression()
+
+Correlation = 98.1609
+
+SMAPE = 32.07505
+
+================================
+
+3. Ridge Regression
+
+ridgeReg = Ridge(alpha=1, normalize=True)
+
+Correlation = 97.8984
+
+SMAPE = 54.88041
+
+================================
+
+4. Lasso Regression
+
+lassoReg = Lasso(alpha=0.01, normalize=True)
+
+Correlation = 98.16095
+
+SMAPE = 32.07418
+
+================================
+
+5. Elastic Net Regression
+
+ENreg = ElasticNet(alpha=1, l1_ratio=0.5, normalize=False)
+
+Correlation = 98.124430
+
+SMAPE = 34.02723
+
+================================
+
+6. DecisionTreeRegressor
+
+dtReg = DecisionTreeRegressor()
+
+Correlation = 100
+
+SMAPE = 5.711530986796207e-17
+
+================================
+
+7. RandomForestRegressor
+
+rfReg = RandomForestRegressor()
+
+Correlation = 99.932749
+
+SMAPE = 1.2323758545464822
+
+================================
+
+8. XGBoost
+
+xgb = xgboost.XGBRegressor(n_estimators=100, learning_rate=0.08, gamma=0, subsample=0.75, colsample_bytree=1, max_depth=7)
+
+Correlation = 99.992718
+
+SMAPE = 1.187734
+
+================================
+## One hot vectors - Country
+
+1. Support Vector Regression - linear
+
+svr = SVR(kernel='linear', C=1e3)
+
+Correlation = 97.636
+
+SMAPE = 16.180791
+
+================================
+
+2. Linear Regression
+
+lreg = LinearRegression()
+
+Correlation = 99.40763
+
+SMAPE = 20.37226
+
+================================
+
+3. Ridge Regression
+
+ridgeReg = Ridge(alpha=1, normalize=True)
+
+Correlation = 97.7395
+
+SMAPE = 48.91465
+
+================================
+
+4. Lasso Regression
+
+lassoReg = Lasso(alpha=0.01, normalize=True)
+
+Correlation = 99.40763
+
+SMAPE = 20.372254
+
+================================
+
+5. Elastic Net Regression
+
+ENreg = ElasticNet(alpha=1, l1_ratio=0.5, normalize=False)
+
+Correlation = 98.35644
+
+SMAPE = 33.52748
+
+================================
+
+6. DecisionTreeRegressor
+
+dtReg = DecisionTreeRegressor()
+
+Correlation = 100
+
+SMAPE = 5.711530986796207e-17
+
+================================
+
+7. RandomForestRegressor
+
+rfReg = RandomForestRegressor()
+
+Correlation = 99.905375
+
+SMAPE = 1.
+
+================================
+
+8. XGBoost
+
+xgb = xgboost.XGBRegressor(n_estimators=100, learning_rate=0.08, gamma=0, subsample=0.75, colsample_bytree=1, max_depth=7)
+
+Correlation = 99.99278
+
+SMAPE = 1.14225
+
+--------------------------------
+
+xgb = xgboost.XGBRegressor(n_estimators=1500, learning_rate=0.05, gamma=0, subsample=0.75, colsample_bytree=1, max_depth=15)
+
+Correlation = 99.99999999994662
+
+SMAPE = 0.0004228589229385793
+
+================================
