@@ -10,6 +10,9 @@ This is the challenge organised by Hacker earth.
 ## Challenge Time: 
 - 65 hours
 
+## Rank:
+- 223 out of 4743 participants
+
 ## Language:
 - Python
 
